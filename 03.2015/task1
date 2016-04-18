@@ -1,0 +1,11 @@
+Task 1: 熟悉这个共同科研的平台。然后一起改进如何更好的使用这个
+
+1. 安装git在你linux上
+2. 使用git clone 把这个仓库下载到你的电脑上
+3. 修改March.2015文件夹下的Data那个文章的note文件，把现在读了的内容总结进去。如果引用了其他论文，比如证明拉普拉斯噪音性质的论文，那么，把该论文添加进目录，同时修改README文件
+4. 把你修改了的内容同步到github上
+    git add -A
+	git commit -m 'mumu update data mining paper'
+	git push
+	（如果push失败，尝试使用 git pull，然后再push)
+	 

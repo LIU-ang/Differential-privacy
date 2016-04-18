@@ -1,0 +1,47 @@
+这是12~14年KDD和SIGMOD和差分隐私相关的论文和两篇差分隐私+决策树经典论文
+以及我思路相近的差分隐私+随机森林的文章
+
+Data Mining with Differential Privacy
+  最经典的这一篇，DiffP-ID3和DiffP-C4.5
+
+Differentially Private Data Release for Data Mining
+  这一篇是DiffGen，是非交互式的方法，和DiffP-C4.5方法类似
+  
+Differential Privacy in Data Publication and Analysis
+  12SIGMOD
+  算是综述性质的吧，在本教程中，从数据库的角度提出的差分隐私模型的基础知识，描述差分隐私研究的现状，说明差分隐私的局限性和不足，为今后的研究和讨论提出了开放性问题。
+  
+Mining Frequent Graph Patterns with Differential Privacy
+  13KDD
+  频繁图模式挖掘的一篇文章，因为不太相关所以没有看。
+  
+PrivGene: Differentially Private Model Fitting Using Genetic Algorithms
+  13SIGMOD
+  This paper focuses on analysis tasks that involve model fitting, i.e., finding the parameters of a statistical model that best fit the dataset.
+  在说model fitting algorithm，说之前的都是在现有的基础上套上差分隐私，但是大都不好，所以提出了PrivGene
+  这是a general-purpose differentially private model fitting solution based on genetic algorithms (GA)
+  
+Recursive Mechanism: Towards Node Differential Privacy and Unrestricted Joins
+  13SIGMOD
+  In this paper, we propose a novel differentially private mechanism to release an approximation to a linear statistic of the result of some positive relational algebra calculation over a sensitive database. 
+  不知道是说啥的。。好像是子图计数啥玩意儿。。
+  
+Differentially Private Network Data Release via Structural Inference
+  14KDD
+  这个是从网络结构来加入差分隐私发布数据，和图有关
+  
+Exponential Random Graph Estimation under Differential Privacy
+  14KDD
+  In this work we propose algorithms for privately estimating the parameters of exponential random graph models (ERGMs)
+  
+Top-k Frequent Itemsets via Differentially Private FP-trees
+  14KDD
+  频繁项集挖掘
+  
+PrivBayes: Private Data Release via Bayesian Networks
+  14SIGMOD
+  贝叶斯网络，看这篇但是难
+  
+PriView: Practical Differentially Private Release of Marginal Contingency Tables
+  14SIGMOD
+  We introduce PriView, which computes marginal tables for a number of strategically chosen sets of attributes that we call views, and then use these view marginal tables to reconstruct any desired k-way marginal. 
